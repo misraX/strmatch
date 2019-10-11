@@ -14,10 +14,9 @@ coverage.
 
 ### Tools Uses:
 
-1. Python (Standard libraries).
-2. Python unittest.
-3. Coverages for code coverage.
-4. virtualenv for isolated environment.
+1. Python (Standard libraries) set, list, unittest.
+2. coverages for code coverage.
+3. virtualenv for isolated environment.
 
 
 #### Prerequisite:
