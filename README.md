@@ -1,8 +1,9 @@
 [![Build Status](https://travis-ci.org/misraX/strmatch.svg?branch=master)](https://travis-ci.org/misraX/strmatch)
 [![codecov](https://codecov.io/gh/misraX/strmatch/branch/master/graph/badge.svg)](https://codecov.io/gh/misraX/strmatch)
 
-A simple way to find strings into a list of strings.
-
+A simple way to find strings into a list of strings, and to minimize the number of external dependencies
+Python and it's standard libraries are used to build the project, For advanced usages it will be better to
+use nltk.
 
 `strmatch.py` uses Python and it's standard libraries to create a simple way of
 finding the matched strings from the list.
