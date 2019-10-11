@@ -10,9 +10,9 @@ services:
   - redis
 
 install:
-  - pip install coverage coverage
+  - pip install coverage codecov
 
 # command to run tests
 script:
-  - coverage run --source='.' python -m unittest test_strmatch.py
+  - coverage run test_strmatch.py
   - codecov

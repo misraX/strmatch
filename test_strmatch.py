@@ -44,3 +44,7 @@ class FinderTestCase(unittest.TestCase):
                     'yqouiypvjzdv', 'qwpmp', 'bwlzzvpmzz', 'sblqoazhx', 'doimcsggit', 'ssuqhibgecrbtvt', 'fcltvta',
                     'yzf', 'ylebsz']
         self.assertEqual(find_str, excepted)
+
+
+if __name__ == '__main__':
+    unittest.main()
