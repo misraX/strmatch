@@ -7,7 +7,7 @@ A simple way to find strings into a list of strings.
 `strmatch.py` uses Python and it's standard libraries to create a simple way of
 finding the matched strings from the list.
 
-`test_strmatch.py` uses Python's unittest along with coverage are used to test and evaluate the code
+`test_strmatch.py` uses Python's unittest along with coverage to test and evaluate the code
 coverage.
 
 `start.sh` Simple bash script to build a virtualenv and run test.
