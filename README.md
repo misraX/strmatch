@@ -6,11 +6,10 @@
 
 ### Installation:
 
-Production build Using docker-compose [nginx, uwsgi, postgresql, redis, django]:
-
-       # clone the repo
-       $ git clone git@github.com:misraX/strmatch.git
-       $ cd strmatch
-       # Run the build script.
-       $ ./start.sh
-       
+```
+# clone the repo
+$ git clone git@github.com:misraX/strmatch.git
+$ cd strmatch
+# Run the build script.
+$ ./start.sh
+```       
