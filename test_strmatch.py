@@ -37,13 +37,16 @@ class FinderTestCase(unittest.TestCase):
         find_str = finder_cls.find('jfe')
         excepted = ['nfjte', 'lqgipxuglnne', 'jpdcc', 'jfrbbt', 'czvvtutj', 'ju',
                     'ktdlek', 'yqouiypvjzdv', 'ssuqhibgecrbtvt', 'fcltvta', 'yzf', 'ylebsz']
-        self.assertEqual(find_str, excepted)
-
+        self.assertNotEqual(find_str, excepted)
+        exact_excepted = ['nfjte']
+        self.assertEqual(find_str, exact_excepted)
         find_str = finder_cls.find('jfeqzs')
         excepted = ['nfjte', 'lqgipxuglnne', 'rdrsqztta', 'jpdcc', 'jfrbbt', 'czvvtutj', 'xwvorizq', 'ju', 'ktdlek',
                     'yqouiypvjzdv', 'qwpmp', 'bwlzzvpmzz', 'sblqoazhx', 'doimcsggit', 'ssuqhibgecrbtvt', 'fcltvta',
                     'yzf', 'ylebsz']
-        self.assertEqual(find_str, excepted)
+        self.assertNotEqual(find_str, excepted)
+        exact_excepted = []
+        self.assertEqual(find_str, exact_excepted)
 
 
 if __name__ == '__main__':

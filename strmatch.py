@@ -18,7 +18,8 @@ class Finder(object):
         The process:
 
         1. Iterating over the string_list
-        2. Check if there is an intersection between the matcher and the value.
+        2. Check if there is an intersection between the matcher and the value,
+           the intersection length must be equal to the length of the value's set.
         3. While True add it to the list.
 
         Complexity of set intersection = O(min(len(s), len(t))
@@ -26,4 +27,5 @@ class Finder(object):
         :param value: str
         :return: list
         """
-        return [matcher for matcher in self.string_list if set.intersection(set(matcher), set(value))]
+        return [matcher for matcher in self.string_list if
+                set.intersection(set(matcher), set(value)).__len__() == set(value).__len__()]
