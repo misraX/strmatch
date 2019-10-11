@@ -1,0 +1,19 @@
+language: python
+
+python:
+  - "3.3"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+
+services:
+  - docker
+  - redis
+
+install:
+  - pip install coverage coverage
+
+# command to run tests
+script:
+  - coverage run --source='.' python -m unittest test_strmatch.py
+  - codecov
