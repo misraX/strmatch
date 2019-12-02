@@ -19,8 +19,8 @@ class Finder(object):
 
         1. Iterating over the string_list
         2. Check if there is an intersection between the matcher and the value,
-           the intersection length must be equal to the length of the value's set.
-        3. While True add it to the list.
+           the intersection length must be equal to the length of the value.
+        3. While True add matcher to the list.
 
         Complexity of set intersection = O(min(len(s), len(t))
 
